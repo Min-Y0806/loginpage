@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: url('https://images4.alphacoders.com/936/thumb-1920-936378.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+
+}
+
+.sign_in {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 420px;
+    background: none
+}
+
+.sign-title {
+    font-size: 20px;
+    color: greenyellow;
+    border-bottom: 5px solid greenyellow;
+    text-align: center;
+}
+
+.sign-content,
+.sign-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sign-content input {
+    padding: 10px;
+    margin-top: 25px;
+    border: 2px solid greenyellow;
+    border-radius: 40px;
+    outline: none;
+    background: none;
+    transition: all .2s;
+}
+
+
+.sign-content input:focus {
+    padding: 10px 30px;
+    border: 2px solid yellow;
+}
+
+.sign-btn {
+    margin-top: 30px;
+}
+
+.sign-btn button {
+    padding: 10px;
+    width: 70%;
+    margin-top: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: greenyellow;
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid greenyellow;
+    transition: all .3s;
+}
+
+.sign-btn button:hover {
+    border: 2px solid blue
+}
